@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Montserrat&display=swap');
+
+body {
+    color: #5d6063;
+    background-color: #fff;
+    font-size: 16px;
+    font-family: 'Cardo', serif;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    padding: 10px 300px 10px 300px;
+}
+
+h1 {
+    font-size: 3.5em;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #5D6063;
+}
+
+h2 {
+    font-size: 2.5em;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    text-align: left;
+}
+
+ol {
+    list-style-type: numeric;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color:purple;
+}
+
+a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+}
+
+a:visited:hover {
+    color: orange;
+}
+
+a:visited:active {
+    color: red;
+}
+
+p {
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    background: linear-gradient(0deg,#f9fafb 0,#fff);
+}
+
+.button {
+    border: none;
+    color: transparent;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: transparent;
+    color: #5d6063;
+    border: 2px solid #cddce7;
+}
+
+.button:hover {
+    background-color: #cddce7;
+    color: white;
+}
