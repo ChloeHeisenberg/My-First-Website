@@ -10,6 +10,21 @@ body {
     padding: 10px 300px 10px 300px;
 }
 
+.menu-container {
+    color: #fff;
+    background-color: #d5dce3;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    border: 1px solid #fff;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
 h1 {
     font-size: 3.5em;
     padding-top: 50px;
